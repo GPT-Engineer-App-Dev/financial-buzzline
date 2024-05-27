@@ -3,7 +3,7 @@ import { FaHome, FaNewspaper, FaChartLine, FaCommentDots, FaEnvelope } from "rea
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg="#f3f2f1" minH="100vh">
       {/* Navigation Bar */}
       <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg" letterSpacing={"tighter"}>
